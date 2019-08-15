@@ -1,3 +1,4 @@
+// 错误定义
 package defs
 
 type Err struct {
