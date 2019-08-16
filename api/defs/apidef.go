@@ -19,3 +19,8 @@ type Comment struct {
 	Author  string
 	Content string
 }
+
+type SimpleSession struct {
+	Username string //login name
+	TTL int64 //检查session是否过期
+}
